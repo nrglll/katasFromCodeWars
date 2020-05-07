@@ -1,1 +1,0 @@
-# Third kata from CodeWars which I completed.
