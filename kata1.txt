@@ -1,0 +1,2 @@
+# First kata from CodeWars which I completed.
+
