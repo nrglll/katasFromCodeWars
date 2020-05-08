@@ -5,7 +5,7 @@ Created on Wed May  6 13:36:47 2020
 @author: Nurgul Aygun
 """
 # =============================================================================
-# Kata explaination:
+# Kata explanation:
 # You probably know the "like" system from Facebook and other pages. People can
 # "like" blog posts, pictures or other items. We want to create the text that should 
 # be displayed next to such an item.
