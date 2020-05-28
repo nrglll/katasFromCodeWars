@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon May 18 16:15:16 2020
+
+@author: Nurgul Aygun
+"""
+
+# =============================================================================
+# Kata explanation:
+# 
+# Your job is to write a function which increments a string, to create a new 
+# string.
+# 
+# If the string already ends with a number, the number should be incremented 
+# by 1.
+# If the string does not end with a number. the number 1 should be appended 
+# to the new string.
+# Examples:
+# 
+# foo -> foo1
+# 
+# foobar23 -> foobar24
+# 
+# foo0042 -> foo0043
+# 
+# foo9 -> foo10
+# 
+# foo099 -> foo100
+# 
+# Attention: If the number has leading zeros the amount of digits should 
+# be considered.
+# =============================================================================
+
+def increment_string(strng):
+    head = strng.rstrip("0123456789")
+    tail = strng[len(head):]
+    
+    if head == strng:
+        return strng + "1"
+    else:
+        return head + str(int(tail)+1)
+            
+            
+        
+# =============================================================================
+# print(increment_string("foobar23"))
+# print(increment_string("foo"))
+# print(increment_string("foo9"))
+# print(increment_string("foo099"))
+# =============================================================================
+
+
+
+
+
+
+
+
+
+
+
